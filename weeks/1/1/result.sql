@@ -24,8 +24,8 @@ CREATE TABLE products_product (
     p_sale_name VARCHAR(50) NOT NULL,
     p_price INT NOT NULL,
     p_sale_price INT,
-    p_hide_status BOOLEAN NOT NULL DEFAULT 0
-    p_sold_out_status : BOOLEAN NOT NULL DEFAULT 0
+    p_hide_status BOOLEAN NOT NULL DEFAULT 0,
+    p_sold_out_status : BOOLEAN NOT NULL DEFAULT 0,
     market_id : 이 상품이 소속되어 있는 마켓의 번호
 );
 
